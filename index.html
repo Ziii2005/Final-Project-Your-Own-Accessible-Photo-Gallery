@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main>
+        <h1>Interactive Photo Gallery</h1>
+        
+        <div id="image">
+            Hover or tab over an image below to display here.
+        </div>
+
+        <div id="gallery">
+            <img class="preview" alt="Beautiful landscape with a calm lake and mountains" src="https://picsum.photos/id/1015/200/200" onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+            
+            <img class="preview" alt="Close up of a pug wrapped in a blanket" src="https://picsum.photos/id/1025/200/200" onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+            
+            <img class="preview" alt="Dense green forest viewed from above" src="https://picsum.photos/id/1043/200/200" onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+            
+            <img class="preview" alt="Snow capped mountain peak during glowing sunset" src="https://picsum.photos/id/1036/200/200" onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+            
+            <img class="preview" alt="Classic vintage brick building exterior" src="https://picsum.photos/id/1040/200/200" onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+            
+            <img class="preview" alt="Waves crashing violently on a rocky ocean cliff" src="https://picsum.photos/id/1041/200/200" onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+        </div>
+    </main>
+</body>
+</html>
